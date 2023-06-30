@@ -27,7 +27,7 @@ int check_prime(unsigned long long n)
 void fact_num(unsigned long long n)
 {
 	unsigned long long j = 0, k = 0, i;
-	for (i = 2; i * i <= n; i++)
+	for (i = 2; i <= n / i; i++)
 	{
 		if (n % i == 0 && check_prime(i))
 		{

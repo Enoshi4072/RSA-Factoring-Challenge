@@ -37,7 +37,7 @@ void fact_num(unsigned long long n)
 int main(int argc, char *argv[])
 {
 	FILE *file;
-	char line[100];
+	char line[1024];
 	size_t len;
 	unsigned long long number;
 
